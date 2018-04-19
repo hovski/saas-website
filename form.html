@@ -13,49 +13,51 @@
 <body>
 
   <!---header starts here---->
-  <header>
-    <div>
-      <a href="index.html"><img src="images/logocolor.svg" alt="…"></a> <!---logo---><!--- Ask someone to make this redirect to Home + Link pages properly?---->
+  <header class="grid grid-middle">
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 gutter">
+        <a href="index.html"><img class="maxw" src="images/logocolor.svg" alt="…"></a>
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="form.html">Sign Up</a></li> <!---btn class/button style--->
+    <nav class="unit xs-3-4 s-3-4 m-3-4 l-3-4 xl-3-4">
+      <ul class="text-upper list-group-inline text-right pad-t gutter push-0 pad-b">
+        <li><a class="link-box gutter-1-2" href="pricing.html">Pricing</a></li>
+        <li><a class="link-box gutter-1-2" href="product.html">Product</a></li>
+        <li><a class="btn btn-b gutter" href="form.html">Sign Up</a></li> <!---btn class/button style--->
       </ul>
     </nav>
   </header>
   <!---header ends here---->
   <main>
-    <section class="grid">
-      <div class="unit">
+    <section class="grid grid-middle teal island">
+      <div class="unit cream borderr max-length island">
 
-        <div>
-          <a href="index.html"><img src="images/logo.svg" alt="…"></a> <!---logo---><!--- Ask someone to make this redirect to Home + Link pages properly?---->
+        <div class="text-center pad-t">
+          <i class="icon i-64">
+            <a href="index.html"><img src="images/logo.svg" alt="…"></a> <!---logo---><!--- Ask someone to make this redirect to Home + Link pages properly?---->
+          </i>
         </div>
 
-        <form class="" method="POST" action="https://formspree.io/pand0025@algonquinlive.com">
+        <form class="island" method="POST" action="https://formspree.io/pand0025@algonquinlive.com">
           <div>
-            <label for="name">Name</label>
-            <input id="name" name="name" required>
+            <label for="name"></label>
+            <input class="milli" id="name" placeholder="Name" name="name" required>
           </div>
-          <div class="push">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          <div class="push pad-t">
+            <label for="email"></label>
+            <input class="milli" id="email" type="email" placeholder="me@me.com" name="email" required>
           </div>
           <div>
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password" required>
+            <label for="password"></label>
+            <input class="milli" id="password" type="password" placeholder="Password" name="password" required>
           </div>
         </form>
 
-        <div class="btn">
-          <a href="#">Sign In</a> <!---align left--->
+        <div class="pad-l inline-block">
+          <a class="btn btn-b gutter-2 text-left link-box text-upper" href="form.html">Sign Up</a> <!---align left--->
         </div>
 
-        <div>
-          <a href="#">Create Account Now</a> <!---align left--->
+        <div class="inline-block right gutter">
+          <a class="link-box btn btn-b text-upper" href="#">Create Account Now</a> <!---align left--->
         </div>
 
         <div>
