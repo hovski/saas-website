@@ -3,7 +3,7 @@ html {
 }
 
 .cream {
-  background-color: #f3E9E8;
+  background-color: #f4f4f4;
 }
 
 .lime {
@@ -20,4 +20,8 @@ html {
 
 .blue {
   background-color: #001f58;
+}
+
+.whitetxt {
+  color: white;
 }
