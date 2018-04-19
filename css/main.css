@@ -2,6 +2,7 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+
 .cream {
   background-color: #f4f4f4;
 }
@@ -64,6 +65,24 @@ nav a:hover {
 .maxh {
   max-height: 190px;
 }
- .borderr {
+
+.borderr {
    border-radius: 18px;
- }
+}
+
+.brdr {
+  border-left: 4px solid #025272;
+}
+
+input {
+  border: 2px solid #025272;
+  border-radius: 7px;
+}
+
+::placeholder {
+  color: #001f58;
+}
+
+.bluetxt {
+  color: #001f58;
+}
