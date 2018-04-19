@@ -12,16 +12,18 @@
 </head>
 <body>
   <!---header starts here---->
-  <header>
-    <div>
-      <a href="index.html"><img src="images/logocolor.svg" alt="…"></a> <!---logo---><!--- Ask someone to make this redirect to Home + Link pages properly?---->
+  <header class="grid">
+    <div class="unit m-1-2 l-1-2 xl-1-2">
+      <i class="icon i-128">
+        <a href="index.html"><img src="images/logocolor.svg" alt="…"></a>
+      </i> <!---logo---><!--- Ask someone to make this redirect to Home + Link pages properly?---->
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="form.html">Sign Up</a></li> <!---btn class/button style--->
+    <nav class="unit m-1-2 l-1-2 xl-1-2">
+      <ul class="text-upper list-group-inline">
+        <li><a class="link-box" href="pricing.html">Pricing</a></li>
+        <li><a class="link-box" href="product.html">Product</a></li>
+        <li><a class="btn text-right" href="form.html">Sign Up</a></li> <!---btn class/button style--->
       </ul>
     </nav>
   </header>
@@ -31,8 +33,8 @@
     <!---Section 1 Starts here---->
     <section class="grid">
       <div class="unit xs-1 sm-1 m-1-3 l-1-3 xl-1-3">
-        <h2>Product</h2><!--pad left or island around page I'll ask--->
-        <p><span class="bold">Innervoice</span> is capable of changing how you interact with work.</p><!--- make span all caps--->
+        <h2 class="text-upper mega">Product</h2><!--pad left or island around page I'll ask--->
+        <p><span class="bold text-upper">Innervoice</span> is capable of changing how you interact with work.</p><!--- make span all caps--->
       </div>
 
       <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 relative">
@@ -45,8 +47,8 @@
     <!---Section 2 Starts here---->
     <section class="grid">
       <div class="unit xs-1 sm-1 m-1-2 l-1-2 xl-1-2">
-        <h2>Teamwork</h2><!--pad left or island around page I'll ask--->
-        <p>Made easier and faster.</p>
+        <h2 class="text-upper mega">Teamwork</h2><!--pad left or island around page I'll ask--->
+        <p class="push-0">Made easier and faster.</p>
         <p>Not harder.</p>
       </div>
 
@@ -60,7 +62,7 @@
     <!---Section 3 Starts here---->
     <section class="grid">
       <div class="unit xs-1 sm-1 m-1 l-1 xl-1 relative">
-        <h2>Messaging & Communication</h2><!--pad left or island around page I'll ask--->
+        <h2 class="text-upper mega">Messaging & Communication</h2><!--pad left or island around page I'll ask--->
         <p>Keeping insync with work and one another.</p>
 
         <div class="absolute"><!---pin this somehow right--->
@@ -88,7 +90,7 @@
         </div>
 
         <div class="unit xs-2 s-1 m-1-3 lg-1-3 xl-1-3">
-          <h2>App Services</h2>
+          <h2 class="text-upper giga">App Services</h2>
           <p>Everyone should be able to have it all. <span class="bold">Innervoice</span> feels the same. So we've given you everything from all apps synced into <span class="italic bold">one</span>.</p>
         </div>
 
@@ -103,7 +105,7 @@
         <div>
           <table>
             <thead>
-              <tr>
+              <tr class="text-upper">
                 <th class="blank" scope="col"></th><!--- top row--->
                 <th class="free" scope="col">Free</th>
                 <th class="business" scope="col">Business</th>
@@ -111,37 +113,37 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Stripe</th>
                 <td>Yes</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Dropbox</th>
                 <td>Yes</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Github</th>
                 <td>No</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Youtube</th>
                 <td>Yes</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Word</th>
                 <td>No</td>
                 <td>No</td>
                 <td>Yes</td>
               </tr>
-              <tr>
+              <tr class="text-upper">
                 <th scope="row">Evernote</th>
                 <td>No</td>
                 <td>No</td>
@@ -161,34 +163,34 @@
       <div class="grid"><!--- Left Side of Footer ---->
 
         <div class="unit"><!--- list 1 --->
-          <h3>Company</h3>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Press</a></li>
+          <h3 class="text-upper kilo">Company</h3>
+          <ul class="text-upper list-group">
+            <li><a class="link-box milli" href="#">About Us</a></li>
+            <li><a class="link-box milli" href="#">Careers</a></li>
+            <li><a class="link-box milli" href="#">Blog</a></li>
+            <li><a class="link-box milli" href="#">Press</a></li>
           </ul>
         </div>
 
         <div class="unit"><!--- list 2 --->
-          <h3>Product</h3>
-          <ul>
-            <li><a href="#">Why IV?</a></li>
-            <li><a href="#">Enterprises</a></li>
-            <li><a href="#">Customer Stories</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Securities</a></li>
+          <h3 class="text-upper kilo">Product</h3>
+          <ul class="text-upper list-group">
+            <li><a class="link-box milli" href="#">Why IV?</a></li>
+            <li><a class="link-box milli" href="#">Enterprises</a></li>
+            <li><a class="link-box milli" href="#">Customer Stories</a></li>
+            <li><a class="link-box milli" href="#">Pricing</a></li>
+            <li><a class="link-box milli" href="#">Securities</a></li>
           </ul>
         </div>
 
         <div class="unit"><!--- list 3 --->
-          <h3>Resources</h3>
-          <ul>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Guides</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">API</a></li>
+          <h3 class="text-upper kilo">Resources</h3>
+          <ul class="text-upper list-group">
+            <li><a class="link-box milli" href="#">Help</a></li>
+            <li><a class="link-box milli" href="#">Download</a></li>
+            <li><a class="link-box milli" href="#">Guides</a></li>
+            <li><a class="link-box milli" href="#">Partners</a></li>
+            <li><a class="link-box milli" href="#">API</a></li>
           </ul>
         </div>
       </div>
