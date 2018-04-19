@@ -60,6 +60,10 @@ nav a:hover {
 .maxwbtm {
   max-width: 190px;
 }
+
+.maxh {
+  max-height: 190px;
+}
  .borderr {
    border-radius: 18px;
  }
