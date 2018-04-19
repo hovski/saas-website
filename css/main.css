@@ -22,6 +22,41 @@ html {
   background-color: #001f58;
 }
 
+nav a {
+  color: #001f58;
+}
+
+nav a:hover {
+  color: #ddf28a;
+}
+
 .whitetxt {
   color: white;
+}
+
+.pad-r {
+  padding-right: 1em;
+}
+
+.pad-l {
+  padding-left: 1em;
+}
+
+.btn-b {
+  border-radius: 25px;
+  border: none;
+  background-color: #001f58;
+}
+
+.btn-b:hover {
+  background-color: #ddf28a;
+  color: black;
+}
+
+.maxw {
+  max-width: 150px;
+}
+
+.maxwbtm {
+  max-width: 190px;
 }
