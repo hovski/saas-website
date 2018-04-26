@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <!---header starts here---->
+  <!--header starts here-->
   <ul class="skip-links">
     <!--Jump to information-->
     <li><a href="#main">Jump to main content</a></li>
@@ -48,8 +48,13 @@
       </nav>
     </div>
   </header>
-  <!---header ends here---->
+  <!--header ends here-->
   <main role="main" id="main" tabindex="0">
+    <section class="hidden">
+      <div class="embed embed-16by9">
+        <img class="img-flex embed-item" src="images/bannermain.svg" alt="…">
+      </div>
+    </section>
     <section class="grid grid-middle teal island">
       <div class="unit cream borderr max-length island">
 
@@ -61,29 +66,29 @@
 
         <form class="island" method="POST" action="https://formspree.io/pand0025@algonquinlive.com">
           <div>
-            <label for="name"></label>
+            <label for="name">Name</label>
             <input class="milli" id="name" placeholder="Name" name="name" required>
           </div>
           <div class="push pad-t">
-            <label for="email"></label>
+            <label for="email">Email</label>
             <input class="milli" id="email" type="email" placeholder="me@me.com" name="email" required>
           </div>
           <div>
-            <label for="address"></label>
+            <label for="address">Address</label>
             <input class="milli" id="address" type="text" placeholder="Address" name="address" required>
           </div>
           <div class="pad-t">
-            <label for="password"></label>
+            <label for="password">Password</label>
             <input class="milli" id="password" type="password" placeholder="Password" name="password" required>
           </div>
           <div class="pad-t">
-            <button type="submit" class="btn btn-b gutter-2 push text-left link-box text-upper ">Submit</button>
+            <button type="submit" class="btn btn-b gutter-2 push text-left text-upper ">Submit</button>
           </div>
         </form>
       </div>
     </section>
   </main>
-  <!--- FOOTER starts here --->
+  <!-- FOOTER starts here -->
   <footer role="contentinfo" class="grid blue">
     <div class="unit xs-0 s-0 m-1-2 l-1-2 xl-1-2">
 
@@ -166,6 +171,6 @@
     </div>
 
   </footer>
-  <!--- FOOTER ends here --->
+  <!-- FOOTER ends here -->
 </body>
 </html>

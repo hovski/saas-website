@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
-  <!---header starts here---->
+  <!--header starts here--->
   <ul class="skip-links">
     <!--Jump to information-->
     <li><a href="#main">Jump to main content</a></li>
@@ -47,8 +47,13 @@
       </nav>
     </div>
   </header>
-  <!---header ends here---->
+  <!--header ends here--->
   <main role="main" id="main" tabindex="0">
+    <section class="hidden">
+      <div class="embed embed-16by9">
+        <img class="img-flex embed-item" src="images/bannermain.svg" alt="…">
+      </div>
+    </section>
     <section class="grid teal island">
       <div class="unit">
         <h1 class="text-upper mega pad-t whitetxt">Pricing</h1>
@@ -126,7 +131,7 @@
       </div>
     </section>
   </main>
-  <!---FOOTER starts here---->
+  <!--FOOTER starts here--->
   <footer role="contentinfo" class="grid blue">
     <div class="unit xs-0 s-0 m-1-2 l-1-2 xl-1-2">
 
@@ -207,8 +212,16 @@
         </div>
       </div>
     </div>
-
+    <form class="unit xs-1 s-1 m-1 l-1 xl-1" method="POST" action="https://formspree.io/pand0025@algonquinlive.com">
+      <div class="pad-t">
+        <label class="whitetxt" for="password">Password</label>
+        <input class="milli" id="password" type="password" placeholder="Password" name="password" required>
+      </div>
+      <div class="pad-t">
+        <button type="submit" class="btn btn-b gutter-2 push text-left text-upper ">Submit</button>
+      </div>
+    </form>
   </footer>
-  <!---FOOTER ends here---->
+  <!--FOOTER ends here--->
 </body>
 </html>

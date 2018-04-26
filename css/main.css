@@ -26,7 +26,8 @@ nav a {
   color: #001f58;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
   color: #ddf28a;
 }
 
@@ -72,9 +73,24 @@ header [type="checkbox"] + label::before {
   background-color: #001f58;
 }
 
-.btn-b:hover {
+.hidey {
+  display: none;
+}
+
+.btn-b:hover,
+.btn-b:focus {
   background-color: #ddf28a;
   color: black;
+}
+
+.btn {
+  width: 150px;
+}
+
+main a:hover,
+main a:focus {
+  outline: 3px solid black;
+  background-color: #ddf28a;
 }
 
 .maxw {
