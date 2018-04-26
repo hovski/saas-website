@@ -90,7 +90,7 @@ header [type="checkbox"] + label::before {
 }
 
 .borderr {
-   border-radius: 18px;
+  border-radius: 18px;
 }
 
 .brdr {
