@@ -2,7 +2,6 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-
 .cream {
   background-color: #f4f4f4;
 }
@@ -29,6 +28,30 @@ nav a {
 
 nav a:hover {
   color: #ddf28a;
+}
+
+.nav {
+  display: none;
+}
+
+header [type="checkbox"] + label::before {
+  top: -4em;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 .whitetxt {
