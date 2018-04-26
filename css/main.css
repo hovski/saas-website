@@ -86,3 +86,8 @@ input {
 .bluetxt {
   color: #001f58;
 }
+
+.maxwidth {
+  max-width: 70%;
+  width: auto;
+}
